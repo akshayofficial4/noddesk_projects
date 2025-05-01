@@ -1,0 +1,131 @@
+
+body {
+    height: 100vh;
+    width: 100vw;
+   
+   
+    background-color: whitesmoke;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 6px double;
+    height: 80vh;
+    width: 80vw;
+    margin: 10vh auto;
+    padding: 2rem;
+    min-width: 300px;
+    
+}
+.header {
+    height: 10vh;
+    background-color: rgb(48, 139, 225);
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font: bold;
+    border-style: ridge;
+    border-color: black;
+    
+}
+
+.content {
+    height: 55vh;
+    margin-top: 20px;
+    display: flex;
+    min-width: 200px;
+}
+.sidebar{
+   
+    width: 30%;
+    border-width: 6px;
+    border-color: black;
+    border-left-style: groove;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+h4{
+    font: bolder;
+    font-size: large;
+}
+.dashed-border{
+
+    width: 12vw;
+    height: 11vh;
+    background-color: white;
+    margin: 1rem;
+    padding: .5rem;
+    outline: 3px orange dashed;
+
+}
+.mixed-border {
+
+    width: 12vw;
+    height: 11vh;
+    background-color: white;
+    margin-left: 1rem;
+    padding: .5rem;
+    border-width: 3px 3px 4px 5px;
+    border-style: solid dotted dashed double;
+    border-color: orange black blue brown;
+
+}
+.circle{
+    background: rgba(0, 100, 0, 0.23);
+    border-radius: 50%;
+    height: 16vh;
+    width: 7vw;
+    margin: 15px auto;
+
+}
+.main{
+    margin-left: 20px;
+    width: 80%;
+    background-color: rgb(235, 91, 91);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+}
+.table {
+    border-collapse: collapse;
+   
+}
+th {
+    background-color: rgb(53, 154, 231);
+    text-align: left;
+    color: white;
+}
+.card {
+    margin: 1rem auto;
+    border: inset;
+    height: 14vh;
+    width: 40vw;
+    padding: 1rem;
+    background-color: rgb(237, 172, 67);
+    border-radius: 35px 0px;
+    
+}
+
+.footer {
+    height: 8vh;
+    background-color: rgb(158, 90, 222);
+    margin-top: 20px;
+    border-style: outset;
+   padding-top: 10px;
+    padding-left: 20px;
+}
