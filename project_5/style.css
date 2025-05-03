@@ -1,0 +1,132 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+}
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.container {
+  background-color: white;
+  width: 90vw;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.absol_div {
+  position: absolute;
+  background-color: red;
+  float: right;
+  padding: 2rem;
+  top: 0;
+  right: 3rem;
+}
+
+.static_div {
+  position: static;
+
+  width: 150px;
+  height: 80px;
+  background-color: rgb(60, 104, 209);
+}
+.relative_div {
+  width: 150px;
+  height: 80px;
+  background-color: lightgreen;
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+.sticky_div {
+  position: sticky;
+  top: 100px;
+  background-color: blueviolet;
+  height: 50px;
+
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.float_content {
+  margin-top: 1rem;
+  border: 1px dotted;
+  padding: 0.5rem;
+  font-size: 12px;
+}
+
+.div_left {
+  width: 70px;
+  height: 90px;
+  background-color: lightgreen;
+  float: left;
+  margin-right: 2rem;
+}
+.cleared_div {
+  display: block;
+  position: relative;
+  clear: both;
+  padding: 1rem;
+  top: -17px;
+  background-color: gray;
+}
+.div_right {
+  position: relative;
+  float: right;
+  top: -1rem;
+  width: 70px;
+  height: 90px;
+  background-color: orange;
+}
+.z-index_div {
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+.box1 {
+  width: 6rem;
+  height: 6rem;
+  background-color: orange;
+  z-index: 1;
+  position: absolute;
+}
+.box2 {
+  width: 6rem;
+  height: 6rem;
+  background-color: lightblue;
+  z-index: 2;
+  position: absolute;
+  left: 7rem;
+  margin-top: 1.5rem;
+}
+
+.box3 {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgba(0, 128, 0, 0.505);
+  z-index: 3;
+  position: absolute;
+  left: 8rem;
+  margin-top: 3rem;
+}
+
+.index_boxes {
+  margin-top: 2rem;
+  height: 10rem;
+}
+.lorem {
+  text-wrap: inherit;
+}
+.fixed_div {
+  position: relative;
+  float: right;
+  right: 1rem;
+  bottom: 6rem;
+  height: 2rem;
+  width: 4rem;
+  padding: 1rem;
+  background-color: yellow;
+}
