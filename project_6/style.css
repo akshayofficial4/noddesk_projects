@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 50vw;
+    background-color: white;
+    height:auto;
+    margin:auto;
+    padding:.3rem 2rem ;
+}
+.heading {
+    font: normal 1rem Arial;
+}
+.heading p{
+    font-variant: small-caps;
+    font-style: italic;
+}
+.sub-head {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    border-bottom: 3px solid blue;
+  
+}
+.sub-head h3 {
+    margin: 0;
+}
+
+.para1 {
+    margin-top: .2rem;
+}
+.font-div {
+    margin-top: 2rem;
+    
+    border-bottom: 3px solid rgba(222, 227, 227, 0.268);
+    margin-bottom: 1rem;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    
+}
+.item {
+    background-color: rgba(222, 227, 227, 0.268);
+    width: 12rem;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.item h5 {
+    font-size: .8rem;
+    color: rgba(0, 0, 0, 0.279);
+    margin: 2px;
+   
+    
+}
+.para2{
+   font-size: .9rem;
+}
+
+
+
+.box1 {
+    font-family: sans-serif;
+}
+.box2 {
+    font-family: serif;
+}
+.box3 {
+    font-family: monospace;
+}
+.box4 {
+    font-size:16px;
+}
+.box5 {
+    font-size:1.2em;
+}
+.box6 {
+    font-size: 1.2rem;
+}
+.box7 {
+    font-size:2vw;
+}
+
+.box8 {
+    font-weight: 100;
+}
+
+.box9 {
+    font-weight: 400;
+}
+.box10 {
+    font-weight: 700;
+}
+.box11 {
+    font-weight: 900;
+}
+.box12 {
+    font-style: Normal;
+}
+.box13 {
+    font-style: italic;
+}
+.box14 {
+    font-style: oblique;
+}
+.box15 {
+    font-variant: normal;
+}
+.box16 {
+    font-variant: small-caps;
+}
+.box17 {
+    line-height: 1;
+}
+.box18 {
+    line-height: 1.5;
+}
+.box19 {
+    line-height: 2;
+}
