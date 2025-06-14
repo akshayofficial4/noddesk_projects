@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 1rem;
+    padding: .5rem;
+    background-color: whitesmoke;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    width: 95vw;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    
+}
+.main-heading {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.content {
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.sub-heading {
+    font-size: 1.3rem;
+    border-bottom: 3px solid cornflowerblue;
+    padding-bottom: .5rem;
+    color: cornflowerblue;
+}
+.transition-divs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.box1 {
+    width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    transition: width 2s;
+    
+}
+.box2 {
+     width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    transition: width 2s, background-color 1s;
+}
+.box1:hover{
+    width: 17rem;
+    cursor: pointer;
+}
+.box2:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box3 {
+     width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition-duration: .2s;
+}
+.box4 {
+     width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition-duration: 2s;
+}
+.box3:hover{
+    width: 17rem;
+    cursor: pointer;
+}
+.box4:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box5, .box6, .box7, .box8 {
+    width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+     transition-duration: 1s;
+}
+.box5{
+    transition-timing-function: linear;
+}
+.box6{
+    transition-timing-function: ease-in;
+}
+.box7{
+    transition-timing-function:ease-out;
+}
+.box8{
+    transition:  transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    
+} 
+.box5:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box6:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box7:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box8:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+    transform: scale(1.2);
+}
+.box9 , .box10 {
+     width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+     transition-duration: 1s;
+}
+.box9{
+    transition-timing-function: linear;
+    transition-delay: .2s;
+}
+.box10{
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.box9:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box10:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box11 , .box12 {
+     width: 12rem;
+    height: 6rem;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+}
+.box11 {
+    transition: width .3s ease-in-out .3s
+}
+.box12 {
+    transition: all .4s ease-in .1s;
+}
+.box11:hover{
+    width: 17rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.box12:hover{
+    width: 17rem;
+    height: 8rem;
+    cursor: pointer;
+    background-color: rgb(8, 43, 109);
+}
+.subhead2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+}
+.transition-divs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.btn1 {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: .8rem;
+    font-weight: bold;
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); 
+}
+.btn1:hover {
+    background-color: rgb(23, 74, 170);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: scale(1.2);
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    flex-direction: column;
+    height: 13rem;
+    width: 14rem;
+    background-color: whitesmoke;
+    padding: 1rem;
+    color: black;
+    transition: all .5s ;
+}
+.card-para {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    
+}
+.card-title {
+    font-size: 2rem;
+    text-align: left;
+}
+.card:hover {
+    
+    transform: translateY(-2px);
+    box-shadow: 0 14px 18px rgba(0,0,0,0.1);
+    background-color: white;
+    transform: scale(1.1);
+}
