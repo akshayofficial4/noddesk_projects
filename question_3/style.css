@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem;
+}
+.heading {
+  display: flex;
+  text-align: center;
+  font-size: 2.5rem;
+  justify-content: start;
+}
+.content {
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+}
+.animation-box {
+  width: 65vw;
+  height: 35vh;
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 52rem;
+  min-width: 18rem;
+  animation-name: colorChange;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+.inner-box {
+  width: 50vw;
+  height: 25vh;
+  min-width: 15rem;
+  background-color: navy;
+  animation-name: colorChange2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-delay: 1s;
+}
+@keyframes colorChange {
+  from {
+    background-color: violet;
+  }
+  to {
+    background-color: red;
+    border-radius: 30px;
+  }
+}
+
+@keyframes colorChange2 {
+  from {
+    background-color: navy;
+  }
+  to {
+    background-color: yellow;
+    border-radius: 30px;
+  }
+}
