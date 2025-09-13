@@ -36,7 +36,7 @@
   background-color: yellow;
   position: absolute;
   z-index: 1;
-  left: 160px;
+  left: 10rem;
 }
 .circle2 {
   width: 10rem;
@@ -45,7 +45,7 @@
   background-color: brown;
   z-index: 2;
   position: absolute;
-  left: 250px;
+  left: 15rem;
 }
 .circle3 {
   width: 10rem;
@@ -54,5 +54,53 @@
   background-color: cyan;
   z-index: 3;
   position: absolute;
-  left: 350px;
+  left: 19rem;
+}
+@media (max-width: 1000px) {
+  .rectangle {
+    width: 18rem;
+    height: 35rem;
+    background-color: green;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    margin-top: -3rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: rgb(228, 165, 165);
+  }
+
+  .circle1 {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 7rem;
+    left: 4rem;
+    z-index: 1;
+  }
+  .circle2 {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    z-index: 2;
+    left: 4rem;
+    z-index: 2;
+  }
+  .circle3 {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    left: 4rem;
+    z-index: 3;
+    top: 18rem;
+  }
 }
