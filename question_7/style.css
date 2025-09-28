@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  width: 95vw;
+  height: 90vh;
+}
+.heading {
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  top: -10rem;
+}
+.circles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.circle1 {
+  background-color: green;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.circle2 {
+  background-color: rgb(202, 202, 83);
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.circle3 {
+  background-color: red;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.circle1:hover {
+  background-color: blue;
+  transition-timing-function: ease-out;
+  transition-duration: 0.6s;
+}
+.circle2:hover {
+  background-color: green;
+  transition-timing-function: ease-out;
+  transition-duration: 0.6s;
+}
+.circle3:hover {
+  background-color: brown;
+  transition-timing-function: ease-out;
+  transition-duration: 0.6s;
+}
+
+@media (max-width: 747px) {
+  .container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .circles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+  .heading {
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: -1rem;
+  }
+
+  .circle1 {
+    background-color: green;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .circle2 {
+    background-color: rgb(202, 202, 83);
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .circle3 {
+    background-color: red;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+}
