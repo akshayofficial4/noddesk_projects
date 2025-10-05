@@ -45,7 +45,7 @@
 }
 .quotebutton {
     padding: 1rem 3rem;
-    background-color: rgb(51, 51, 242);
+   
     color: white;
     border-radius: 50px;
     border: none;
@@ -224,6 +224,8 @@
     width: 100%;
     height: auto;
     margin-top: -40rem;
+    display: flex;
+    flex-direction: row;
 }
 .left-service {
     width: 50%;
@@ -296,6 +298,36 @@
     margin-bottom: 1rem;
    
 }
+.logo2 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid  rgb(88, 220, 88);
+    background-color: rgb(88, 220, 88);
+    border-radius: 50px;
+    margin-bottom: 1rem;
+   
+}
+.logo3 {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid  rgb(234, 174, 64);
+    background-color: rgb(234, 174, 64);
+    border-radius: 50px;
+    margin-bottom: 1rem;
+   
+}
+.logo4{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid  rgb(141, 141, 245);
+    background-color: rgb(38, 53, 190);
+    border-radius: 50px;
+    margin-bottom: 1rem;
+   
+}
 .logoimg {
     width: 2rem;
     height: 2rem;
@@ -317,4 +349,234 @@
 }
 .card-content1 h5 {
     font-size: 1.2rem;
+}
+.right-service-green-dot {
+    position: relative;
+   
+}
+.right-service {
+    margin-top: 12rem;
+}
+.service-heading {
+    font-size: 0.9rem;
+    color: grey;
+}
+.right-service h3 {
+    font-size: 5rem;
+}
+.service-para1 {
+    font-weight: 100;
+}
+.service-para2 {
+    text-decoration: underline;
+}
+
+.sevice-para3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    color: grey;
+}
+.service-button {
+    display: flex;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 50px;
+    border-color: rgba(128, 128, 128, 0.188);
+    color: grey;
+
+}
+.price-section {
+    background-color: rgba(108, 108, 232, 0.081);
+    margin-top: -45rem;
+    width: 100%;
+    padding: 8rem;
+    z-index: 2;
+    position: relative;
+    
+}
+.price-heading2 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.price-para {
+    font-size: 4rem;
+    text-transform: capitalize;
+    padding-top: 2rem;
+}
+
+.underline2 {
+    padding: 2px;
+    display: block;
+    background-color: rgb(149, 185, 251);
+    width: 5rem;
+    justify-self: center;
+    margin-top: 1rem;
+}
+.price-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.price-year {
+    width: 16rem;
+    height: 6rem;
+     background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem;
+    flex-direction: row;
+    gap: .5rem;
+}
+.price-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    width: 50%;
+}
+.monthly {
+    width: 45%;
+    height: 4rem;
+    background-color: white;
+    width: 7rem;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.yearly {
+    width: 45%;
+    background-color: rgba(0, 0, 255, 0.57);
+    height: 4rem;
+    width: 7rem;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.price-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin-top: 3rem;
+   
+}
+.card1 {
+    height: 35rem;
+    max-width: 20rem;
+    min-width: 20rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto; 
+    gap: 1rem;
+   
+}
+.card-heading1 {
+    font: bold;
+    display: flex;
+    background-color: rgb(222, 233, 225);
+    color: rgb(88, 106, 249);
+    padding: .4rem;
+    
+}
+.card-heading2 {
+    font: bold;
+    display: flex;
+    background-color: rgba(236, 225, 204, 0.699);
+    color: orange;
+    padding: .4rem;
+}
+.card-heading3 {
+    font: bold;
+    display: flex;
+    background-color: rgb(180, 227, 180);
+    color: green;
+    padding: .4rem;
+}
+
+.card1 h2 {
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+.dollor1 {
+    font-size: 1rem;
+    color: rgb(88, 106, 249);
+}
+.dollor2 {
+    font-size: 1rem;
+    color: orange;
+}
+.dollor3 {
+    font-size: 1rem;
+    color: green;
+}
+.dollor4 {
+    color: gray;
+    margin-top: 1rem;
+}
+.price-description {
+    color: gray;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-description p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.btn-price {
+    padding: 1rem 2rem;
+    border: 1px solid gray;
+    border-radius: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: gray;
+
+}
+.btn-price2 {
+     padding: 1rem 2rem;
+    border: 1px solid gray;
+    border-radius: 45px;
+     background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+.testimonals {
+    width: 100%;
+    height: 60rem;
+    background-color: rgba(64, 64, 239, 0.888);
+    position: relative;
+    z-index: 1;
+    top: -23rem;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+    
+
 }
