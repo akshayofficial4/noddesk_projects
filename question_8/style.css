@@ -7,7 +7,7 @@
 .container {
     height: auto;
     width: 100vw;
-   
+     overflow-y: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -571,12 +571,187 @@
 }
 .testimonals {
     width: 100%;
-    height: 60rem;
-    background-color: rgba(64, 64, 239, 0.888);
+    height: auto;
+    background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
     position: relative;
     z-index: 1;
     top: -23rem;
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-    
 
+}
+
+.test-img1 {
+    position: relative;
+    flex: 1 1 auto;
+    left: 85%;
+    height: 20rem;
+}
+.test-img2 {
+    position: relative;
+    top: 0rem;
+    width: 15rem;
+    left: 0rem;
+    opacity: 1.3;
+    flex: 1 1 auto;
+}
+.test-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15rem;
+}
+.test-left {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    position: relative;
+    left: 10rem;
+}
+.test-head1 {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+.test-head2 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.test-para {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+}
+
+.test-right {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-self: center;
+    position: relative;
+    right: -15rem;
+}
+.testcard {
+    width: 20rem;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+     padding: 2rem;
+    justify-self: flex-end;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1),
+            0 6px 6px rgba(0,0,0,0.1);
+
+}
+.test-card-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.test-para1 {
+    font-size: 1rem;
+    color: grey;
+    line-height: 1.5rem;
+    text-wrap: wrap;
+    padding-bottom: 1rem;
+}
+.t-heading {
+    font-weight: bold;
+}
+.test-profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2;
+}
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.proname {
+    font-weight: bold;
+}
+.prodesc {
+    color: rgb(0, 187, 255);
+    font-size: .9rem;
+    padding-top: .5rem;
+    font-weight: bold;
+}
+.test-line {
+   
+    position: relative;
+    z-index: 1;
+    top: -40rem;
+    rotate: -10deg;
+    width: 45rem;
+    height: 10rem;
+    left: 20rem;
+}
+.portfolio {
+    background-color: white;
+    width: 100%;
+    height: 70rem;
+    position: relative;
+    z-index: 10;
+    top: -35rem;
+     margin-bottom: -35rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 2rem;
+     padding-top: 8rem;
+}
+.portfolio-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.portfolio-heading {
+    font-size: 0.9rem;
+    color: grey;
+}
+.portfolio-heading2 {
+    font-size: 2.7rem;
+    padding-top: 1rem;
+    display: flex;
+    align-self: center;
+}
+.portfolio-heading3 {
+    font-size: 2.5rem;
+    padding-top: .6rem;
+    display: flex;
+    align-self: center;
+}
+.leaf {
+    position: relative;
+    right: 17rem;
+    bottom: 10rem;
+    width: 15rem;
+}
+.portfolio-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.port-img1 {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-1 {
+    width: 14rem;
+    height: 18rem;
+}
+.portimg-name {
+    display: flex;
 }
