@@ -7,7 +7,7 @@
 .container {
     height: auto;
     width: 100vw;
-     overflow-y: auto;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -741,8 +741,12 @@
 .portfolio-imgs {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 1rem;
+    width: 60%;
+    position: relative;
+    
 }
 .port-img1 {
     display: flex;
@@ -754,4 +758,34 @@
 }
 .portimg-name {
     display: flex;
+}
+.underline1 {
+    display: block;
+    background-color: rgb(149, 185, 251);
+    height: 6rem;
+    width: .2rem;
+    justify-self: center;
+    margin-top: 1rem;
+    rotate: 180deg;
+    margin-right: .5rem;
+    position: relative;
+    top: -3rem;
+    left: 2rem;
+}
+.pname {
+    position: relative;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.side-head1 {
+    display: flex;
+    align-self: flex-start;
+    font-size: .6rem;
+    margin-bottom: .5rem;
+    margin-top: 1.2rem;
+}
+.side-head2 {
+    font-weight: bold;
 }
