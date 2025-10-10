@@ -1,79 +1,959 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .container {
-    height: auto;
-    width: 100vw;
-    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: white;
+  height: auto;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
 }
 .nav {
-    width: 100vw;
-    height: 10vh;
-    background-color: whitesmoke;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 1.2rem;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.241);
-    color: grey;
-    font: bold;
+  width: 100vw;
+  height: 10vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.241);
+  color: grey;
+  font: bold;
 }
 .navlist {
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 .navlist2 {
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
-    align-items: center;
-    justify-content: center; 
-    
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
 }
 .quotebutton {
-    padding: 1rem 3rem;
-   
-    color: white;
-    border-radius: 50px;
-    border: none;
-    font-size: 1rem;
-    background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  padding: 1rem 3rem;
+
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
 }
 .hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
-    position: relative;
-    top: 5rem;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  position: relative;
+  top: 5rem;
 }
 .hero-text {
-    width: 50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 4rem;
+}
+.tag {
+  display: inline-block;
+  justify-content: center;
+  padding: 1rem 3rem;
+  border: 2px solid rgba(128, 128, 128, 0.225);
+  border-radius: 50px;
+  text-align: center;
+  color: grey;
+  font-size: 1rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+.tag-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3em;
+  font-size: 3.4rem;
+  font-weight: lighter;
+  flex-wrap: wrap;
+}
+.tag-bold {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 3.8em;
+  font-size: 3.3rem;
+  font-weight: bold;
+  position: relative;
+  left: 1rem;
+  position: relative;
+  z-index: 2;
+}
+.img1 {
+  width: 45rem;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 4rem;
+  margin-top: 2rem;
+  position: relative;
+  right: 4rem;
+}
+.button1 {
+  padding: 1rem 2rem;
+  position: relative;
+
+  margin-top: 1rem;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  font-size: bold;
+  color: white;
+}
+.leftdot1 {
+  position: relative;
+  left: 18.8rem;
+  top: -1rem;
+}
+.bluedot1 {
+  position: relative;
+  top: -34rem;
+  left: -5rem;
+}
+.btn-play {
+  position: relative;
+  padding: 1rem 1.2rem;
+  border-radius: 50px;
+  border-width: 0.5rem;
+  border-style: double;
+  border-color: whitesmoke;
+  fill: none;
+  cursor: pointer;
+}
+
+.about-centerdot {
+  position: relative;
+  top: 11rem;
+  left: 20rem;
+}
+
+.about {
+  margin-top: 16rem;
+  width: 100vw;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.abheading1 {
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.abheading2 {
+  font-size: 2.5rem;
+}
+
+.about-plant {
+  position: relative;
+  top: -7rem;
+  right: 24rem;
+  height: 15rem;
+}
+.abimage {
+  position: relative;
+  top: -6rem;
+}
+.underline {
+  padding: 2px;
+  display: block;
+  background-color: rgb(149, 185, 251);
+  width: 5rem;
+  justify-self: center;
+  margin-top: 1rem;
+}
+.about-rb-dot {
+  position: relative;
+  left: 38rem;
+  top: -20rem;
+}
+.hero-left-bg {
+  height: 40rem;
+  rotate: 180deg;
+  position: relative;
+  display: block;
+  right: -39rem;
+  width: 15rem;
+  top: -20rem;
+}
+.about-contact-banner {
+  position: relative;
+  top: -40rem;
+  left: 33rem;
+  height: 10rem;
+}
+.services {
+  width: 100%;
+  height: auto;
+  margin-top: -40rem;
+  display: flex;
+  flex-direction: row;
+}
+.left-service {
+  width: 50%;
+  height: auto;
+}
+.right-service {
+  width: 50%;
+}
+.boxes {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 10rem;
+  z-index: 2;
+  gap: 2rem;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 12rem;
+  height: 15rem;
+  background-color: white;
+  position: relative;
+  top: -50rem;
+  box-shadow: 0px 0px 7px 1px rgb(245, 236, 236);
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box2 {
+  position: relative;
+  top: -48rem;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box3 {
+  position: relative;
+  top: -50rem;
+  left: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box4 {
+  position: relative;
+  top: -47.5rem;
+  left: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(141, 141, 245);
+  background-color: rgb(141, 141, 245);
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.logo2 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(88, 220, 88);
+  background-color: rgb(88, 220, 88);
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.logo3 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(234, 174, 64);
+  background-color: rgb(234, 174, 64);
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.logo4 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 2px solid rgb(141, 141, 245);
+  background-color: rgb(38, 53, 190);
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.logoimg {
+  width: 2rem;
+  height: 2rem;
+  padding: 3px;
+}
+.card-content1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.card-content1 p {
+  color: gray;
+  font-size: 0.9rem;
+}
+.card-content1 h5 {
+  font-size: 1.2rem;
+}
+.right-service-green-dot {
+  position: relative;
+}
+.right-service {
+  margin-top: 12rem;
+}
+.service-heading {
+  font-size: 0.9rem;
+  color: grey;
+}
+.service-heading1 {
+  font-size: 0.9rem;
+  color: grey;
+}
+.right-service h3 {
+  font-size: 5rem;
+}
+.service-para1 {
+  font-weight: 100;
+}
+.service-para2 {
+  text-decoration: underline;
+}
+
+.sevice-para3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  color: grey;
+}
+.service-button {
+  display: flex;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  background-color: white;
+  border-radius: 50px;
+  border-color: rgba(128, 128, 128, 0.188);
+  color: grey;
+}
+.price-section {
+  background-color: rgba(108, 108, 232, 0.081);
+  margin-top: -45rem;
+  width: 100%;
+  padding: 8rem;
+  z-index: 2;
+  position: relative;
+}
+.price-heading2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-para {
+  font-size: 4rem;
+  text-transform: capitalize;
+  padding-top: 2rem;
+}
+
+.underline2 {
+  padding: 2px;
+  display: block;
+  background-color: rgb(149, 185, 251);
+  width: 5rem;
+  justify-self: center;
+  margin-top: 1rem;
+}
+.price-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.price-year {
+  width: 16rem;
+  height: 6rem;
+  background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.price-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 50%;
+}
+.monthly {
+  width: 45%;
+  height: 4rem;
+  background-color: white;
+  width: 7rem;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yearly {
+  width: 45%;
+  background-color: rgba(0, 0, 255, 0.57);
+  height: 4rem;
+  width: 7rem;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.price-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 6rem;
+  margin-top: 3rem;
+}
+.card1 {
+  height: 35rem;
+  max-width: 20rem;
+  min-width: 20rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  gap: 1rem;
+}
+.card-heading1 {
+  font: bold;
+  display: flex;
+  background-color: rgb(222, 233, 225);
+  color: rgb(88, 106, 249);
+  padding: 0.4rem;
+}
+.card-heading2 {
+  font: bold;
+  display: flex;
+  background-color: rgba(236, 225, 204, 0.699);
+  color: orange;
+  padding: 0.4rem;
+}
+.card-heading3 {
+  font: bold;
+  display: flex;
+  background-color: rgb(180, 227, 180);
+  color: green;
+  padding: 0.4rem;
+}
+
+.card1 h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.dollor1 {
+  font-size: 1rem;
+  color: rgb(88, 106, 249);
+}
+.dollor2 {
+  font-size: 1rem;
+  color: orange;
+}
+.dollor3 {
+  font-size: 1rem;
+  color: green;
+}
+.dollor4 {
+  color: gray;
+  margin-top: 1rem;
+}
+.price-description {
+  color: gray;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-description p {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.btn-price {
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  border-radius: 45px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: gray;
+}
+.btn-price2 {
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  border-radius: 45px;
+  background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+.testimonals {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  position: relative;
+  z-index: 1;
+  top: -23rem;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.test-img1 {
+  position: relative;
+  flex: 1 1 auto;
+  left: 85%;
+  height: 20rem;
+}
+.test-img2 {
+  position: relative;
+  top: 0rem;
+  width: 15rem;
+  left: 0rem;
+  opacity: 1.3;
+  flex: 1 1 auto;
+}
+.test-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -15rem;
+}
+.test-left {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  position: relative;
+  left: 10rem;
+}
+.test-head1 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  align-self: flex-start;
+}
+.test-head2 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.test-para {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2rem;
+  margin-top: 1.5rem;
+}
+
+.test-right {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-self: center;
+  position: relative;
+  right: -15rem;
+}
+.testcard {
+  width: 20rem;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-self: flex-end;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+.test-card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.test-para1 {
+  font-size: 1rem;
+  color: grey;
+  line-height: 1.5rem;
+  text-wrap: wrap;
+  padding-bottom: 1rem;
+}
+.t-heading {
+  font-weight: bold;
+}
+.test-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2;
+}
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.proname {
+  font-weight: bold;
+}
+.prodesc {
+  color: rgb(0, 187, 255);
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+.test-line {
+  position: relative;
+  z-index: 1;
+  top: -40rem;
+  rotate: -10deg;
+  width: 45rem;
+  height: 10rem;
+  left: 20rem;
+}
+.portfolio {
+  background-color: white;
+  width: 100%;
+  height: 70rem;
+  position: relative;
+  z-index: 10;
+  top: -35rem;
+  margin-bottom: -35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 8rem;
+}
+.portfolio-head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-heading {
+  font-size: 0.9rem;
+  color: grey;
+}
+.portfolio-heading2 {
+  font-size: 2.7rem;
+  padding-top: 1rem;
+  display: flex;
+  align-self: center;
+}
+.portfolio-heading3 {
+  font-size: 2.5rem;
+  padding-top: 0.6rem;
+  display: flex;
+  align-self: center;
+}
+.leaf {
+  position: relative;
+  right: 17rem;
+  bottom: 10rem;
+  width: 15rem;
+}
+.portfolio-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 60%;
+  position: relative;
+  top: -13rem;
+}
+.port-img1 {
+  display: flex;
+  flex-direction: column;
+}
+.port-img2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.port-img5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 3rem;
+}
+.portfolio-1 {
+  width: 14rem;
+  height: 18rem;
+}
+.portfolio-2 {
+  width: 14rem;
+  height: 14rem;
+}
+.portimg-name {
+  display: flex;
+}
+.underline1 {
+  display: block;
+  background-color: rgb(149, 185, 251);
+  height: 6rem;
+  width: 0.2rem;
+  justify-self: center;
+  margin-top: 1rem;
+  rotate: 180deg;
+  margin-right: 0.5rem;
+  position: relative;
+  top: -3rem;
+  left: 2rem;
+}
+.pname {
+  position: relative;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.side-head1 {
+  display: flex;
+  align-self: flex-start;
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.2rem;
+}
+.side-head2 {
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  background-color: rgba(245, 245, 245, 0.327);
+  padding: 3rem;
+  width: 100%;
+}
+.footerlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap: 1rem;
+  width: 50%;
+  font-size: 0.9rem;
+  color: gray;
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(108, 108, 232, 0.044);
+  margin-top: 2rem;
+  height: 15rem;
+}
+.footerleft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 2rem;
+}
+.logo-ring {
+  padding: 0.6rem;
+  border: 2px solid gray;
+  border-radius: 50px;
+}
+.copyright {
+  display: flex;
+  align-self: last baseline;
+  position: relative;
+  top: 3rem;
+  right: 14rem;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+.footerright {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: start;
+  justify-content: center;
+  height: 10rem;
+  padding-left: 2rem;
+}
+.footerright h4 {
+  font-size: 1.5rem;
+}
+
+.subform {
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 40px;
+  border: none;
+  margin-top: 0.8rem;
+}
+.buttonform {
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 40px;
+  position: relative;
+  right: 3rem;
+  width: auto;
+  background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  color: white;
+  font-size: 1rem;
+  align-content: center;
+  gap: 2rem;
+}
+.draft {
+  width: 0.8rem;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50px;
+}
+.footerbanner {
+  position: relative;
+  z-index: 3;
+  bottom: -40rem;
+  left: 30rem;
+  height: 26rem;
+}
+.tag-text-mob,
+.tag-bold-mob,
+.servicemob,
+.portheadd-mob {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 2rem;
+    overflow-x: hidden;
+  }
+  .bluedot1 {
+    display: none;
+  }
+  .about-centerdot {
+    position: relative;
+    top: 10rem;
+    left: 11rem;
+    width: 0.4rem;
+  }
+  .leftdot1 {
+    display: none;
+  }
+  .nav,
+  .test-line {
+    display: none;
+  }
+  .hero-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1 {
+    display: none;
+  }
+  .hero-content {
+    display: flex;
+    align-items: ;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-text {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 4rem;
-
-}
-.tag {
-    display: inline-block;
-    justify-content: center;
+    font-size: 2rem;
+  }
+  .tag {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
     padding: 1rem 3rem;
     border: 2px solid rgba(128, 128, 128, 0.225);
     border-radius: 50px;
@@ -82,710 +962,530 @@
     font-size: 1rem;
     margin-top: -2rem;
     margin-bottom: 2rem;
-}
-.tag-text {
+  }
+  .tag-text {
+    display: none;
+  }
+  .tag-bold,
+  .portheadd-mob {
+    display: none;
+  }
+  .tag-bold-mob {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 3em;
-    font-size: 3.4rem;
-    font-weight: lighter;
-    flex-wrap: wrap;
-    
-}
-.tag-bold {
-    display: inline;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 3.8em;
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-weight: bold;
     position: relative;
+    top: 3.5rem;
     left: 1rem;
-    position: relative;
-    z-index: 2;
-}
-.img1 {
-    width: 45rem;
-    height: 35rem;
+  }
+
+  .tag-text-mob {
+    font-size: 3rem;
     display: flex;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+  .firstbutton {
+    display: inline;
+    align-self: flex-start;
+    margin-top: 1rem;
+  }
+  .about-plant {
+    display: none;
+  }
+  .abheading2 {
+    font-size: 3rem;
+  }
+  .leftdot2 {
+    position: relative;
+    width: 0.5rem;
+    bottom: 2.7rem;
+    left: 2rem;
+  }
+  .bluedot2 {
+    position: relative;
+    width: 0.5rem;
+    bottom: 14rem;
+    left: 23rem;
+  }
+  .about-contact-banner {
+    display: none;
+  }
+  .footerbanner {
+    display: none;
+  }
+  .imgsize1 {
+    height: 30rem;
+    width: auto;
+    padding-top: 8rem;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    font-size: 4rem;
-    margin-top: 2rem;
-    position: relative;
-    right: 4rem;
-    
-}
-.button1 {
-    padding: 1rem 2rem;
-    position: relative;
-
-    margin-top: 1rem;
-    border-radius: 50px;
-    border: none;
-    background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
-    font-size: bold;
-    color: white;
-}
-.leftdot1 {
-    position: relative;
-    left: -6.2rem;
-    top: -2rem; 
-       
-}
-.bluedot1 {
-    position: relative;
-    top: -34rem;
-    left: -5rem;
-}
-.btn-play {
-    position: relative;
-    padding: 1rem 1.2rem;
-    border-radius: 50px;
-    border-width: .5rem;
-    border-style: double;
-    border-color: whitesmoke;
-    fill: none;
-    cursor: pointer; 
-}
-
-.about-centerdot {
-    position: relative;
-    top: 11rem;
-    left: 20rem;
-}
-
-.about {
-    margin-top: 16rem;
+    margin-top: 20rem;
     width: 100vw;
-    margin-bottom: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.abheading1 {
-    font-size: .8rem;
-    color: grey;
-    font-weight: bold;
-    margin-bottom: 2rem;
-}
-
-.abheading2 {
-    font-size: 2.5rem;
-}
-
-.about-plant {
-    position: relative;
-    top: -7rem;
-    right: 24rem;
-    height: 15rem;
-}
-.abimage {
-    position: relative;
-    top: -6rem;
-}
-.underline {
-    padding: 2px;
-    display: block;
-    background-color: rgb(149, 185, 251);
-    width: 5rem;
-    justify-self: center;
-    margin-top: 1rem;
-}
-.about-rb-dot {
-    position: relative;
-    left: 38rem;
-    top: -20rem;
-}
-.hero-left-bg {
-    height: 40rem;
-    rotate: 180deg;
-    position: relative;
-    display: block;
-    right: -39rem;
-    width: 15rem;
-    top: -20rem;
-}
-.about-contact-banner {
-    position: relative;
-    top: -40rem;
-    left: 33rem;
-    height: 10rem;
-
-}
-.services {
-    width: 100%;
+  }
+  .left-service {
     height: auto;
-    margin-top: -40rem;
     display: flex;
-    flex-direction: row;
-}
-.left-service {
-    width: 50%;
-    height: auto;
-    
-    
-}
-.right-service {
-    width: 50%;
-}
-.boxes {
-    display: flex;
-    flex-flow: row;
+    justify-content: center;
+    width: 100vh;
+    position: relative;
+    margin-left: -10rem;
+    z-index: 12;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin-left: 10rem;
-    z-index: 2;
-    gap: 2rem;
-}
-.box1,.box2,.box3,.box4 {
-    width: 12rem;
-    height: 15rem;
-    background-color: white;
-    position: relative;
-    top: -50rem;
-    box-shadow: 0px 0px 7px 1px rgb(245, 236, 236);
-}
-.box1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.box2 {
-    position: relative;
-    top: -48rem;
-    left: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.box3 {
-    position: relative;
-    top: -50rem;
-    left: .2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.box4 {
-    position: relative;
-    top: -47.5rem;
-    left: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.logo1 {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    border: 2px solid  rgb(141, 141, 245);
-    background-color: rgb(141, 141, 245);
-    border-radius: 50px;
-    margin-bottom: 1rem;
-   
-}
-.logo2 {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    border: 2px solid  rgb(88, 220, 88);
-    background-color: rgb(88, 220, 88);
-    border-radius: 50px;
-    margin-bottom: 1rem;
-   
-}
-.logo3 {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    border: 2px solid  rgb(234, 174, 64);
-    background-color: rgb(234, 174, 64);
-    border-radius: 50px;
-    margin-bottom: 1rem;
-   
-}
-.logo4{
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-    border: 2px solid  rgb(141, 141, 245);
-    background-color: rgb(38, 53, 190);
-    border-radius: 50px;
-    margin-bottom: 1rem;
-   
-}
-.logoimg {
-    width: 2rem;
-    height: 2rem;
-    padding: 3px;
-}
-.card-content1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    text-align: center;
-}
-.card-content1 p {
-    color: gray;
-    font-size: .9rem;
-}
-.card-content1 h5 {
-    font-size: 1.2rem;
-}
-.right-service-green-dot {
-    position: relative;
-   
-}
-.right-service {
-    margin-top: 12rem;
-}
-.service-heading {
-    font-size: 0.9rem;
-    color: grey;
-}
-.right-service h3 {
-    font-size: 5rem;
-}
-.service-para1 {
-    font-weight: 100;
-}
-.service-para2 {
-    text-decoration: underline;
-}
-
-.sevice-para3 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 4rem;
-    color: grey;
-}
-.service-button {
-    display: flex;
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-    background-color: white;
-    border-radius: 50px;
-    border-color: rgba(128, 128, 128, 0.188);
-    color: grey;
-
-}
-.price-section {
-    background-color: rgba(108, 108, 232, 0.081);
-    margin-top: -45rem;
+  }
+  .about-left-banner {
+    display: none;
+  }
+  .right-service {
     width: 100%;
-    padding: 8rem;
-    z-index: 2;
-    position: relative;
-    
-}
-.price-heading2 {
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.price-para {
-    font-size: 4rem;
-    text-transform: capitalize;
-    padding-top: 2rem;
-}
-
-.underline2 {
-    padding: 2px;
-    display: block;
-    background-color: rgb(149, 185, 251);
-    width: 5rem;
-    justify-self: center;
-    margin-top: 1rem;
-}
-.price-left {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.price-year {
-    width: 16rem;
-    height: 6rem;
-     background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
-    border-radius: 45px;
+  }
+  .boxes {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .6rem;
-    flex-direction: row;
-    gap: .5rem;
-}
-.price-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
-    width: 50%;
-}
-.monthly {
-    width: 45%;
-    height: 4rem;
-    background-color: white;
-    width: 7rem;
-    border-radius: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-
-}
-.yearly {
-    width: 45%;
-    background-color: rgba(0, 0, 255, 0.57);
-    height: 4rem;
-    width: 7rem;
-    border-radius: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.price-cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
     gap: 6rem;
     margin-top: 3rem;
-   
-}
-.card1 {
-    height: 35rem;
-    max-width: 20rem;
-    min-width: 20rem;
+    width: 60%;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: auto;
+    height: auto;
+    padding: 2rem;
     background-color: white;
     display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 auto; 
-    gap: 1rem;
-   
-}
-.card-heading1 {
-    font: bold;
+    align-self: center;
+    box-shadow: 0px 0px 7px 1px rgb(245, 236, 236);
+  }
+  .box1 {
     display: flex;
-    background-color: rgb(222, 233, 225);
-    color: rgb(88, 106, 249);
-    padding: .4rem;
-    
-}
-.card-heading2 {
-    font: bold;
-    display: flex;
-    background-color: rgba(236, 225, 204, 0.699);
-    color: orange;
-    padding: .4rem;
-}
-.card-heading3 {
-    font: bold;
-    display: flex;
-    background-color: rgb(180, 227, 180);
-    color: green;
-    padding: .4rem;
-}
-
-.card1 h2 {
-    font-size: 3rem;
-    margin-top: 1rem;
-}
-.dollor1 {
-    font-size: 1rem;
-    color: rgb(88, 106, 249);
-}
-.dollor2 {
-    font-size: 1rem;
-    color: orange;
-}
-.dollor3 {
-    font-size: 1rem;
-    color: green;
-}
-.dollor4 {
-    color: gray;
-    margin-top: 1rem;
-}
-.price-description {
-    color: gray;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.price-description p {
-    display: flex;
+    align-self: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 1rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
-}
-.btn-price {
-    padding: 1rem 2rem;
-    border: 1px solid gray;
-    border-radius: 45px;
-    background-color: white;
+  }
+  .box2 {
     display: flex;
-    align-items: center;
+    align-self: center;
     justify-content: center;
-    font-weight: 700;
-    color: gray;
+    flex-wrap: wrap;
+    margin-left: -3rem;
+    padding: -2rem;
+  }
+  .box3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .box4 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -3rem;
+  }
 
-}
-.btn-price2 {
-     padding: 1rem 2rem;
-    border: 1px solid gray;
-    border-radius: 45px;
-     background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
+  .services {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
-    color: white;
-    cursor: pointer;
+    margin-top: 20rem;
+    width: 100vw;
+    padding: 1rem 2rem;
+  }
+  .left-service {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    position: relative;
+    margin-left: -10rem;
+    z-index: 12;
+    flex-wrap: wrap;
+    padding-right: 4rem;
+  }
+  .right-service {
+    position: relative;
+    top: -50rem;
+    z-index: 30;
+  }
+  .service-para1 {
+    font-size: 4rem;
+  }
+  .service-para2 {
+    font-size: 3rem;
+  }
+  .service-para3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .price-section {
+    width: 100vw;
+    background-color: rgba(108, 108, 232, 0.081);
+    margin-top: -45rem;
+    z-index: 2;
+    position: relative;
+  }
+  .price-para {
+    font-size: 2rem;
+  }
+
+  .price-heading2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .price-left {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .price-right {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer {
+    margin-top: 32rem;
+  }
+  .footerbanner {
+    display: none;
+  }
 }
-.testimonals {
+
+@media (max-width: 744px) {
+  .body {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    min-width: 372px;
+  }
+
+  .tag-bold-mob {
+    display: inline;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    left: 0.6rem;
+    flex-wrap: none;
+  }
+  .tag-text,
+  .tag-text-mob {
+    font-size: 1.4rem;
+
+    height: 6rem;
+    line-height: 2rem;
+  }
+  .firstbutton {
+    display: inline;
+    align-self: flex-start;
+    margin-top: -0.5rem;
+  }
+  .about-centerdot {
+    left: 5rem;
+  }
+  .leftdot1 {
+    display: none;
+  }
+  .about-plant {
+    display: none;
+  }
+  .abheading2 {
+    font-size: 1.5rem;
+  }
+  .abimage {
+    padding-top: 15rem;
+  }
+  .imgsize1 {
+    width: auto;
+    height: 20rem;
+    padding-top: 2rem;
+  }
+  .about {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .leftdot2 {
+    position: relative;
+    width: 0.5rem;
+    bottom: 2.9rem;
+    left: 2.4rem;
+  }
+  .bluedot2 {
+    position: relative;
+    width: 0.5rem;
+    bottom: 10rem;
+    left: 18rem;
+  }
+  .bluedot1 {
+    display: none;
+  }
+  .about-rb-dot {
+    display: none;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+    width: 100vw;
+  }
+  .left-service {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    width: 100vh;
+    position: relative;
+    margin-left: -10rem;
+    z-index: 12;
+    flex-wrap: wrap;
+    padding-right: 4rem;
+  }
+  .right-service {
+    position: relative;
+    top: -50rem;
+    z-index: 30;
+    width: 100vw;
+  }
+  .service-para1 {
+    font-size: 2.6rem;
+  }
+  .service-para2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .service-para3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .price-section {
+    padding: 1.5rem;
+    width: 100vw;
+  }
+
+  .testimonals {
+    width: 100vw;
     height: auto;
     background: linear-gradient(45deg, rgb(13, 13, 230), rgb(68, 182, 219));
     position: relative;
     z-index: 1;
-    top: -23rem;
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-
-}
-
-.test-img1 {
-    position: relative;
-    flex: 1 1 auto;
-    left: 85%;
-    height: 20rem;
-}
-.test-img2 {
-    position: relative;
-    top: 0rem;
-    width: 15rem;
-    left: 0rem;
-    opacity: 1.3;
-    flex: 1 1 auto;
-}
-.test-contents {
+    clip-path: polygon(0 16%, 232% 0, 100% 100%, 0 100%);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -3rem;
+  }
+  .test-img1 {
+    width: 2rem;
+    height: 5rem;
     position: relative;
-    top: -15rem;
-}
-.test-left {
+    right: 10rem;
+  }
+  .test-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20rem;
+  }
+  .test-left {
     color: white;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 100vw;
     align-items: center;
-    position: relative;
-    left: 10rem;
-}
-.test-head1 {
-    font-size: .9rem;
-    margin-bottom: 1rem;
+    padding-right: 28rem;
+  }
+
+  .test-head1 {
+    display: flex;
     align-self: flex-start;
-}
-.test-head2 {
-    font-size: 4rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
-}
-.test-para {
+    width: 100vw;
+    right: 6rem;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  .test-head-mob {
+    font-size: 2rem;
     display: flex;
     flex-wrap: wrap;
-    line-height: 2rem;
-    margin-top: 1.5rem;
-}
-
-.test-right {
+    width: 100vw;
+    text-transform: capitalize;
+    align-items: center;
+    margin-left: 9rem;
+  }
+  .underline-test {
+    padding: 2px;
+    display: block;
+    align-self: flex-end;
+    background-color: rgb(149, 185, 251);
+    width: 5rem;
+    justify-self: center;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+  .test-head2,
+  .portfolio-heading2,
+  .portfolio-heading3 {
+    display: none;
+  }
+  .test-para {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 9rem;
+    height: auto;
+    padding: 0.3rem;
+    padding-right: 5rem;
+    margin-bottom: 4rem;
+  }
+  .test-img2 {
+    position: relative;
+    top: 21rem;
+    width: 15rem;
+    left: -3rem;
+    opacity: 1.3;
+  }
+  .test-right {
+    width: 100vw;
     display: flex;
     flex-direction: row;
+  }
+  .testcard {
+    width: 15rem;
+    height: auto;
+
     gap: 2rem;
     align-self: center;
     position: relative;
-    right: -15rem;
-}
-.testcard {
-    width: 20rem;
-    height: auto;
-    background-color: rgb(255, 255, 255);
+    right: 13rem;
+  }
+  .test-card-heading {
     display: flex;
     flex-direction: column;
-     padding: 2rem;
-    justify-self: flex-end;
-    position: relative;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1),
-            0 6px 6px rgba(0,0,0,0.1);
+    gap: 2rem;
+  }
 
-}
-.test-card-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-bottom: 2rem;
-}
-.test-para1 {
-    font-size: 1rem;
-    color: grey;
-    line-height: 1.5rem;
-    text-wrap: wrap;
-    padding-bottom: 1rem;
-}
-.t-heading {
-    font-weight: bold;
-}
-.test-profile {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 2;
-}
-.profile-name {
-    display: flex;
-    flex-direction: column;
-    padding-left: 1rem;
-}
-.proname {
-    font-weight: bold;
-}
-.prodesc {
-    color: rgb(0, 187, 255);
-    font-size: .9rem;
-    padding-top: .5rem;
-    font-weight: bold;
-}
-.test-line {
-   
+  .portfolio {
+    margin-top: 20rem;
+  }
+
+  .leaf {
     position: relative;
-    z-index: 1;
-    top: -40rem;
-    rotate: -10deg;
-    width: 45rem;
-    height: 10rem;
-    left: 20rem;
-}
-.portfolio {
-    background-color: white;
-    width: 100%;
-    height: 70rem;
-    position: relative;
-    z-index: 10;
-    top: -35rem;
-     margin-bottom: -35rem;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 2rem;
-     padding-top: 8rem;
-}
-.portfolio-head {
+    right: -4rem;
+    bottom: 16rem;
+    width: 11rem;
+    z-index: -5;
+  }
+  .portheadd-mob {
+    width: 95vw;
+    font-size: 1.9rem;
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-}
-.portfolio-heading {
-    font-size: 0.9rem;
-    color: grey;
-}
-.portfolio-heading2 {
-    font-size: 2.7rem;
-    padding-top: 1rem;
-    display: flex;
-    align-self: center;
-}
-.portfolio-heading3 {
-    font-size: 2.5rem;
-    padding-top: .6rem;
-    display: flex;
-    align-self: center;
-}
-.leaf {
+    text-align: center;
+    padding-bottom: 6rem;
+  }
+  .portfolio-heading {
+    margin-bottom: 2rem;
+  }
+  .portfolio-imgs {
     position: relative;
-    right: 17rem;
-    bottom: 10rem;
-    width: 15rem;
-}
-.portfolio-imgs {
+    width: 100vw;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 109rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(245, 245, 245, 0.327);
+    padding: 1rem;
+    width: 10vw;
+    margin-right: 6rem;
+  }
+
+  .footerlist {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-direction: row;
     gap: 1rem;
-    width: 60%;
-    position: relative;
-    
-}
-.port-img1 {
+    width: 100vw;
+    font-size: 0.9rem;
+    color: gray;
+    padding-left: 6rem;
+  }
+  .footer2 {
+    width: 100vw;
     display: flex;
     flex-direction: column;
-}
-.portfolio-1 {
-    width: 14rem;
-    height: 18rem;
-}
-.portimg-name {
+    align-items: flex-start;
+    padding-top: 2rem;
+    height: auto;
+  }
+  .footerleft {
+    padding-left: 5rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+  }
+  .copyright {
+    display: none;
+  }
+  .footerright {
+    width: 100vw;
     display: flex;
-}
-.underline1 {
-    display: block;
-    background-color: rgb(149, 185, 251);
-    height: 6rem;
-    width: .2rem;
-    justify-self: center;
-    margin-top: 1rem;
-    rotate: 180deg;
-    margin-right: .5rem;
-    position: relative;
-    top: -3rem;
-    left: 2rem;
-}
-.pname {
-    position: relative;
-    padding-left: 3rem;
-    display: flex;
+    flex-wrap: wrap;
+  }
+  .footerright h4 {
+    width: 100vw;
+    padding-left: -2rem;
+  }
+
+  .sub-bar {
+    width: 100vw;
+    display: inline;
     align-items: center;
-    flex-direction: column;
-}
-.side-head1 {
-    display: flex;
-    align-self: flex-start;
-    font-size: .6rem;
-    margin-bottom: .5rem;
-    margin-top: 1.2rem;
-}
-.side-head2 {
-    font-weight: bold;
+    justify-content: center;
+  }
+  .subform {
+    width: 15rem;
+    padding: 1rem 4rem;
+  }
+  .buttonform {
+    padding: 1rem 1rem;
+  }
 }
