@@ -1,0 +1,1 @@
+its a hospital website which is fully mobile responsible. which has small small animations. <img width="1287" height="2589" alt="Image" src="https://github.com/user-attachments/assets/781eabbc-53dd-4d0f-be55-824f409b389d" />
