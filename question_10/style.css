@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#todoInput{
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+#addButton {
+    width: 6rem;
+    height: 3rem;
+    background-color: rgba(56, 164, 247, 0.711);
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid  rgba(31, 129, 204, 0.711);
+    margin-left: 2rem;
+    border-radius: 50px;
+}
+.input-div {
+    display: flex;
+    align-items: center;
+}
