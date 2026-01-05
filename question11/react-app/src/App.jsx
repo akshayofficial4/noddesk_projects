@@ -1,10 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App(){
-  const [ tasks, setTasks ] = useState([]);
+  const [ tasks, setTasks ] = useState(() => {
+    const savedTasks = localStorage.getItem("tasks");
+    return savedTasks ? JSON.parse(savedTasks) : [];
+  });
   const [ taskText, setTaskText ] = useState("");
 
-  function addtask() {
+  useEffect(() => {
+    localStorage.setItem("tasks" , JSON.stringify(tasks));
+  }, [tasks])
+  
+  
+  
+
+  function addTask() {
     if(taskText === "") return;
     setTasks([...tasks, taskText]);
     setTaskText("")
@@ -18,8 +28,12 @@ function App(){
   return (
     <div>
       <h1>react todo</h1>
-      <input type="text" value={taskText} onChange={(e) => setTaskText(e.target.value)} placeholder="enter todos"/>
-      <button onClick={addtask}>Add</button>
+      <input type="text" value={taskText} onChange={(e) => setTaskText(e.target.value)} onKeyDown={(e) => {
+        if(e.key=== "Enter"){
+          addTask();
+        }
+      }} placeholder="enter todos"/>
+      <button onClick={addTask}>Add</button>
 
       <ul>
         {
