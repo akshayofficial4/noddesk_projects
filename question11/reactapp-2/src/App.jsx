@@ -1,25 +1,51 @@
-import { useState , useEffect } from 'react'
+import { useState } from 'react'
 
 import './App.css'
 
 function App() {
 
   const [ users, setUsers ] = useState([]);
-  const [ loading , setLoading ] = useState(true);
+  const [ loading , setLoading ] = useState(false);
+  const [error , setError] = useState(null);
 
-  useEffect(() => {
+  const [ formData , setFormData ] = useState({
+    email:"",
+    password: "",
+  })
 
-    const url = 'https://jsonplaceholder.typicode.com/users';
-
-    async function fetchUsers () {
+  async function fetchUsers() {
+    try {
+      const url = 'https://jsonplaceholder.typicode.com/users';
+      setLoading(true);
+      setError(null);
       const res = await fetch(url);
+      if(!res.ok) {
+        throw new Error('failed to fetch users')
+      }
       const data = await res.json();
       setUsers(data);
+
+    } catch (error) {
+      setError(error.message);
+    }
+    finally {
       setLoading(false);
     }
-    fetchUsers();
-    
-  }, [])
+  }
+
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [ name ] : value,
+    })
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formData)
+  }
+
   
 
   return (
@@ -28,6 +54,8 @@ function App() {
 
       {loading && <p>loading...</p>}
 
+      <button onClick={fetchUsers}>reload data</button>
+
       <ul>
         {
           users.map((user) => (
@@ -35,6 +63,14 @@ function App() {
           ))
         }
       </ul>
+
+      <div>
+        <form onSubmit={handleSubmit} >
+            <input name='email' type='email' value={formData.email} placeholder='email' onChange={handleChange}  />
+            <input name='password' type='password' value={formData.password} onChange={handleChange} placeholder='password' />
+            <button type='submit'>submit</button>
+        </form>
+      </div>
 
     </div>
   )
